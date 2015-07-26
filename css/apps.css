@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "Telegrafico";
+  src: url("/fonts/telegrafico.ttf"); }
+html, head, body, title, h1, ul, li {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+body {
+  background-color: #34495e;
+  background-size: cover;
+  background-position: top left; }
+
+p, a, li, body {
+  color: #ffffff;
+  font-family: "Telegrafico", "Open Sans", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  opacity: 1;
+  color: #ffffff;
+  text-decoration: none; }
+
+li:hover {
+  color: #ffffff; }
+
+.container {
+  height: 100%;
+  width: 100%; }
+
+/* HEADER */
+.header {
+  text-align: center; }
+  .header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+    padding-bottom: 5px;
+    border: none;
+    transition: border-bottom 0.25s ease; }
+  .header a:hover {
+    border-bottom: 2px solid white;
+    color: #ffffff; }
+  .header li {
+    display: inline;
+    margin: 5px;
+    text-shadow: 0 2.5px #07090c; }
+  .header li:last-child {
+    margin-right: 0; }
+  .header h1 {
+    margin: 15px;
+    color: #ffffff;
+    font-family: "Telegrafico", "Open Sans", sans-serif;
+    font-size: 3em;
+    text-shadow: 0 0.08em #07090c; }
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px; }
+  .footer li {
+    display: inline;
+    margin-right: 10px; }
+  .footer li:last-child {
+    margin-right: 0; }
+  .footer i {
+    width: 10%;
+    font-size: 1.9em;
+    transform: scale(1, 1);
+    opacity: 0.6;
+    color: #ffffff;
+    transition: opacity 0.25s ease-in-out; }
+  .footer i:hover {
+    opacity: 1; }
+
+/* OTHER STYLES */
+.main-content {
+  text-shadow: 0 0.25em #07090c; }
+  .main-content .attributes {
+    position: absolute;
+    width: 600px;
+    top: 40vh;
+    left: 50%;
+    margin: 0 0 0 -250px;
+    text-align: center; }
+
+.first, .second, .third, .fourth {
+  display: none; }
+
+.projects-content {
+  list-style-position: inside;
+  width: 550px;
+  height: 300px; }
+
+.experience li {
+  list-style-type: none; }
+
+.specs {
+  position: absolute;
+  width: 620px;
+  height: 480px;
+  right: 5%;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 10px; }
+  .specs li {
+    list-style-type: none; }
+
+.music-content {
+  width: 350px;
+  height: 150px; }
+
+.apps-content {
+  width: 550px;
+  height: 150px; }
+
+body {
+  background-color: #333333; }
+
+.main-content {
+  height: 100%; }
+
+.words {
+  height: 300px;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  top: 50vh;
+  margin-top: -220px;
+  margin-left: -320px;
+  text-shadow: 0 1.5px black; }
+  .words h2 {
+    font-family: "Muli";
+    font-size: 1.2em; }
+  .words ul {
+    list-style: none; }
+  .words p {
+    font-family: "Muli";
+    width: 350px; }
+  .words a {
+    margin-top: 20px;
+    margin-left: 100px; }
+
+.phone {
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -165px; }
+
+#myCarousel {
+  left: 32.5%;
+  width: 35%; }
+
+#overlay {
+  position: absolute;
+  color: white;
+  fill: #ffffff;
+  opacity: 0.6;
+  left: 30.1%;
+  top: -18.7%; }
+
+.header li, .header h1 {
+  text-shadow: 0 2.5px black; }
+
+/*# sourceMappingURL=apps.css.map */
