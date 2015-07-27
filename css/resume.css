@@ -1,0 +1,28 @@
+body {
+  background-color: #b6453f; }
+
+.header li, .header h1 {
+  text-shadow: 0 2.5px #57211e; }
+
+img {
+  width: 300px; }
+
+.resumes {
+  text-align: center;
+  text-shadow: 0 2.5px #57211e; }
+  .resumes h2 {
+    margin-top: 3em;
+    font-size: 1.5em; }
+  .resumes table {
+    margin: 2em auto 0 auto; }
+  .resumes .or {
+    padding: 20px;
+    fill: #ffffff;
+    color: white; }
+    .resumes .or img {
+      width: 70px;
+      color: white; }
+  .resumes p {
+    font-size: 1.5em; }
+
+/*# sourceMappingURL=resume.css.map */

@@ -158,10 +158,18 @@ li:hover {
       left: 0;
     }
   }
+}
 
+@media (max-width: 768px) {
   .main-content {
     .attributes {
       margin-top: -10px;
+    }
+  }
+
+  .header {
+    li {
+      font-size: 1.25em;
     }
   }
 }

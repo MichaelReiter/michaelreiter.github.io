@@ -108,9 +108,12 @@ li:hover {
   .header ul {
     width: 100vw;
     position: absolute;
-    left: 0; }
-
+    left: 0; } }
+@media (max-width: 768px) {
   .main-content .attributes {
-    margin-top: -10px; } }
+    margin-top: -10px; }
+
+  .header li {
+    font-size: 1.25em; } }
 
 /*# sourceMappingURL=style.css.map */

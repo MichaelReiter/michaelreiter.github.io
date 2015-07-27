@@ -1,0 +1,48 @@
+$red: #b6453f;
+$background-color: $red;
+$body-font: "Muli";
+
+body {
+  background-color: $background-color;
+}
+
+.header {
+  li, h1 {
+    text-shadow: 0 2.5px darken($background-color, 25%);
+  }
+}
+
+img {
+  width: 300px;
+}
+
+.resumes {
+  text-align: center;
+  text-shadow: 0 2.5px darken($background-color, 25%);
+
+  h2 {
+    margin-top: 3em;
+    font-size: 1.5em;
+
+  }
+
+  table {
+    margin: 2em auto 0 auto;
+  }
+
+  .or {
+    padding: 20px;
+    fill: #ffffff;
+    color: white;
+
+    img {
+      width: 70px;
+      color: white;
+    }
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+}
