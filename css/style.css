@@ -73,12 +73,14 @@ li:hover {
   margin-left: -150px; }
   .footer li {
     display: inline;
-    margin-right: 10px; }
+    margin-right: 10px;
+    height: 2em; }
   .footer li:last-child {
     margin-right: 0; }
   .footer i {
+    padding: 3px;
     width: 10%;
-    font-size: 1.9em;
+    font-size: 2em;
     transform: scale(1, 1);
     opacity: 0.6;
     color: #ffffff;
@@ -100,31 +102,15 @@ li:hover {
 .first, .second, .third, .fourth {
   display: none; }
 
-.projects-content {
-  list-style-position: inside;
-  width: 550px;
-  height: 300px; }
+@media (max-width: 360px) {
+  .header h1 {
+    font-size: 2.6em; }
+  .header ul {
+    width: 100vw;
+    position: absolute;
+    left: 0; }
 
-.experience li {
-  list-style-type: none; }
-
-.specs {
-  position: absolute;
-  width: 620px;
-  height: 480px;
-  right: 5%;
-  text-align: center;
-  background-color: #000000;
-  border-radius: 10px; }
-  .specs li {
-    list-style-type: none; }
-
-.music-content {
-  width: 350px;
-  height: 150px; }
-
-.apps-content {
-  width: 550px;
-  height: 150px; }
+  .main-content .attributes {
+    margin-top: -10px; } }
 
 /*# sourceMappingURL=style.css.map */
