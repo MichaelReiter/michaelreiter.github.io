@@ -26,12 +26,27 @@ p, a, li, body {
 
 a {
   text-decoration: none;
-}
 
-a:hover {
-  opacity: 1;
-  color: #ffffff;
-  text-decoration: none;
+  &:link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  &:hover {
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: #ffffff;
+    text-decoration: none;
+  }
 }
 
 li:hover {
@@ -53,7 +68,7 @@ li:hover {
     font-size: 1em;
     padding-bottom: 5px;
     border: none;
-    transition: border-bottom 0.25s ease;
+    //transition: border-bottom 0.25s;
   }
 
   a:hover {
@@ -116,10 +131,10 @@ li:hover {
 .main-content {
   .attributes {
     position: absolute;
-    width: 600px;
+    width: 300px;
     top: 40vh;
     left: 50%;
-    margin: 0 0 0 -250px;
+    margin: 0 0 0 -150px;
     text-align: center;
   }
   text-shadow: 0 0.25em darken($background-color, 25%);
