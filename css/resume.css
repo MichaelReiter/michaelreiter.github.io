@@ -5,20 +5,32 @@ body {
   text-shadow: 0 2.5px #57211e; }
 
 img {
-  width: 300px; }
+  height: 40%;
+  transition: 0.25s; }
+
+img:hover {
+  height: 45%; }
 
 .resumes {
   text-align: center;
-  text-shadow: 0 2.5px #57211e; }
+  text-shadow: 0 2.5px #57211e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1000px;
+  margin-left: -500px;
+  height: 500px;
+  margin-top: -230px; }
   .resumes h2 {
-    margin-top: 3em;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    margin-top: 0; }
   .resumes table {
     margin: 2em auto 0 auto; }
   .resumes .or {
     padding: 20px;
     fill: #ffffff;
-    color: white; }
+    color: white;
+    margin-bottom: 40%; }
     .resumes .or img {
       width: 70px;
       color: white; }
