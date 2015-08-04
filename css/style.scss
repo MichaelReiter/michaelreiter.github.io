@@ -69,21 +69,21 @@ li:hover {
     padding-bottom: 5px;
     border: none;
     //transition: border-bottom 0.25s;
-  }
 
-  a:hover {
-    border-bottom: 2px solid white;
-    color: #ffffff;
+    &:hover {
+      border-bottom: 2px solid white;
+      color: #ffffff;
+    }
   }
 
   li {
     display: inline;
     margin: 5px;
     text-shadow: 0 2.5px darken($background-color, 25%);
-  }
 
-  li:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   h1 {
@@ -98,7 +98,7 @@ li:hover {
 /* FOOTER */
 .footer {
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 15px;
   left: 50%;
   width: 300px;
@@ -169,7 +169,7 @@ li:hover {
 
   .header {
     li {
-      font-size: 1.25em;
+      font-size: 1.2em;
     }
   }
 }

@@ -1,0 +1,72 @@
+$turquoise: #16a085;
+$background-color: $turquoise;
+$body-font: "Muli";
+
+body {
+  background-color: $background-color;
+}
+
+.header {
+  li, h1 {
+    text-shadow: 0 2.5px darken($background-color, 25%);
+  }
+}
+
+.contact-info {
+  //background-color: red;
+  text-align: center;
+  position: relative;
+  height: 50%;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  top: 30vh;
+  text-shadow: 0 1.5px darken($background-color, 25%);
+
+  table {
+    //background-color: blue;
+    width: 200px;
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+    margin-bottom: 25vh;
+  }
+
+  .fa-long-arrow-down {
+    font-size: 5em;
+  }
+
+  h2 {
+    font-family: $body-font;
+    font-size: 1.25em;
+  }
+
+  td {
+    font-size: 1.25em;
+    padding: 5px;
+  }
+
+  a {
+    font-family: $body-font;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    table {
+      margin-bottom: 15vh;
+    }
+  }
+
+  .fa-long-arrow-down {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 360px) {
+  .contact-info {
+    table {
+      margin-bottom: 5vh;
+    }
+  }
+}

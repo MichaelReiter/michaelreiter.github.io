@@ -4,11 +4,11 @@ body {
 .header li, .header h1 {
   text-shadow: 0 2.5px #57211e; }
 
-img {
+#res {
   height: 40%;
   transition: 0.25s; }
 
-img:hover {
+#res:hover {
   height: 45%; }
 
 .resumes {
