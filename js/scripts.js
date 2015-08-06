@@ -1,4 +1,4 @@
-var delay = 1250;
+var delay = 1000;
 
 $(document).ready(function () {
     $('.first').fadeIn(2000).removeClass('hidden');
