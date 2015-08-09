@@ -14,6 +14,7 @@ body {
   .main-content img {
     width: 300px; }
   .main-content p {
-    font-family: "Muli"; }
+    font-family: "Muli";
+    font-size: 1.2em; }
 
 /*# sourceMappingURL=about.css.map */

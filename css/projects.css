@@ -10,17 +10,18 @@ body {
   position: relative;
   left: 50%;
   top: 50vh;
-  margin-top: -180px;
+  margin-top: -220px;
   margin-left: -320px;
   text-shadow: 0 1.5px black; }
   .words h2 {
     font-family: "Muli";
-    font-size: 1.2em; }
+    font-size: 1.5em; }
   .words ul {
     list-style: none; }
   .words p {
     font-family: "Muli";
-    width: 350px; }
+    width: 350px;
+    font-size: 1.2em; }
   .words a {
     margin-top: 20px;
     margin-left: 100px; }

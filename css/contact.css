@@ -10,15 +10,16 @@ body {
   height: 50%;
   width: 200px;
   left: 50%;
-  margin-left: -150px;
+  margin-left: -100px;
   top: 25vh;
   text-shadow: 0 1.5px #073028; }
   .contact-info table {
     position: relative;
+    width: 200px;
     left: 50%;
     margin: 3em 0 15vh -100px; }
   .contact-info td {
-    font-size: 1.25em;
+    font-size: 1.2em;
     padding: 5px; }
   .contact-info a {
     font-family: "Muli"; }

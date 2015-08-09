@@ -24,7 +24,7 @@ body {
   .resumes h2, .resumes p {
     font-family: "Muli"; }
   .resumes h2 {
-    font-size: 1.4em;
+    font-size: 1.25em;
     margin-top: 0; }
   .resumes table {
     margin: 2em auto 0 auto; }
@@ -39,7 +39,9 @@ body {
   .resumes p {
     font-size: 1.75em; }
   .resumes #old-school {
-    font-family: Times New Roman; }
+    position: relative;
+    top: 5px;
+    font-family: Special Elite; }
   .resumes #snazzy {
     font-family: Lobster; }
 
