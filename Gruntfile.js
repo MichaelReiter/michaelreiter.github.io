@@ -7,7 +7,8 @@ module.exports = function(grunt) {
           'css/style.css' : 'css/style.scss',
           'css/projects.css' : 'css/projects.scss',
           'css/resume.css' : 'css/resume.scss',
-          'css/contact.css' : 'css/contact.scss'
+          'css/contact.css' : 'css/contact.scss',
+          'css/about.css' : 'css/about.scss'
         }
       }
     },

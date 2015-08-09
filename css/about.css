@@ -1,0 +1,19 @@
+body {
+  background-color: #2980b9; }
+
+.main-content {
+  position: relative;
+  height: 50%;
+  width: 700px;
+  left: 50%;
+  margin-left: -350px;
+  top: 15vh;
+  text-shadow: 0 1.5px #123851; }
+  .main-content td {
+    padding: 10px; }
+  .main-content img {
+    width: 300px; }
+  .main-content p {
+    font-family: "Muli"; }
+
+/*# sourceMappingURL=about.css.map */
