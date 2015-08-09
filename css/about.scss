@@ -8,11 +8,12 @@ body {
 
 .main-content {
   position: relative;
-  height: 50%;
+  height: 300px;
   width: 700px;
   left: 50%;
   margin-left: -350px;
-  top: 15vh;
+  top: 40vh;
+  margin-top: -190px;
   text-shadow: 0 1.5px darken($background-color, 25%);
 
   td {
