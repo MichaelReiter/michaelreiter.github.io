@@ -11,21 +11,109 @@ body {
   height: 300px;
   width: 700px;
   left: 50%;
-  margin-left: -350px;
+  margin-left: -340px;
   top: 40vh;
-  margin-top: -190px;
+  margin-top: -200px;
   text-shadow: 0 1.5px darken($background-color, 25%);
 
-  td {
-  	padding: 10px;
+  .container {
+    display: inline;
+  }
+
+  .writing {
+    margin-top: 25px;
+    padding-left: 20px;
+  	width: 370px;
+    float: left;
   }
 
 	img {
 		width: 300px;
+    float: left;
 	}
 
 	p {
 		font-family: $body-font;
 		font-size: 1.2em;
 	}
+}
+
+@media (max-width: 425px) {
+  .main-content {
+    top: 30vh;
+    left: 92vw;
+    width: 225px;
+
+    .container {
+      position: relative;
+      left: 50%;
+    }
+
+    .writing {
+      width: 350px;
+      margin-left: -15%;
+    }
+
+    img {
+      width: 220px;
+      margin-left: -70px;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .main-content {
+
+    .writing {
+      width: 350px;
+      margin-left: -8%;
+    }
+
+    img {
+      width: 220px;
+      margin-left: -55px;
+    }
+  }
+}
+
+@media (max-width: 325px) {
+  .main-content {
+    top: 38vh;
+
+    .writing {
+      width: 310px;
+      margin-left: 12%;
+      margin-top: 12px;
+    }
+
+    img {
+      width: 150px;
+      margin-left: 5px;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
+}
+
+
+@media (max-height: 480px) {
+  .main-content {
+    top: 43vh;
+
+    .writing {
+      margin-top: 0;
+      z-index: 9999;
+    }
+
+    img {
+      width: 125px;
+      margin-left: 18px;
+    }
+  }
 }

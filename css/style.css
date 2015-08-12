@@ -90,7 +90,7 @@ li:hover {
 
 /* OTHER STYLES */
 .main-content {
-  text-shadow: 0 0.25em #07090c; }
+  text-shadow: 0 3px #07090c; }
   .main-content .attributes {
     position: absolute;
     width: 300px;
