@@ -118,7 +118,7 @@ body {
     .writing {
       width: 310px;
       margin-left: 12%;
-      margin-top: 12px;
+      margin-top: 15px;
     }
 
     img {
@@ -130,15 +130,26 @@ body {
       font-size: 1em;
     }
   }
+
+  .footer {
+    position: relative;
+    top: 50vh;
+    left: 0;
+    display: inline;
+  }
+
+  .container {
+    padding-bottom: 50px;
+  }
 }
 
 //iPhone 4S
 @media (max-height: 480px) {
   .main-content {
-    top: 15em;
+    top: 15.25em;
 
     .writing {
-      margin-top: 0;
+      margin-top: 7px;
       z-index: 9999;
     }
 
@@ -146,5 +157,9 @@ body {
       width: 125px;
       margin-left: 18px;
     }
+  }
+
+  .footer {
+    top: 62vh;
   }
 }

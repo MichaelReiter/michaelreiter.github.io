@@ -72,6 +72,12 @@ p, h2 {
   }
 }
 
+@media (max-height: 550px) {
+  .contact-info {
+    top: 20vh;
+  }
+}
+
 //iPhone 6 Plus
 @media (max-width: 414px) {
   .contact-info {
@@ -89,14 +95,24 @@ p, h2 {
 //Nexus 5
 @media (max-width: 360px) {
   .contact-info {
+    top: 7.5em;
+
     table {
       margin-bottom: 5vh;
     }
   }
 }
 
-@media (max-height: 550px) {
+//iPhone 5
+@media (max-width: 320px) {
   .contact-info {
-    top: 20vh;
+    top: 5em;
+  }
+}
+
+//iPhone 4S
+@media (max-height: 480px) {
+  .more-ways {
+    display: none;
   }
 }

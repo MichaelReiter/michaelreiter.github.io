@@ -160,6 +160,25 @@ li:hover {
   }
 }
 
+//iPhone 6 Plus
+@media (max-width: 414px) {
+  .main-content {
+    .attributes {
+      margin-top: -20px;
+    }
+  }
+}
+
+//iPhone 6
+@media (max-width: 375px) {
+  .main-content {
+    .attributes {
+      margin-top: -30px;
+    }
+  }
+}
+
+//Nexus 5
 @media (max-width: 360px) {
   .header {
     h1 {
@@ -172,8 +191,15 @@ li:hover {
       left: 0;
     }
   }
+
+  .main-content {
+    .attributes {
+      margin-top: -25px;
+    }
+  }
 }
 
+//iPhone 5
 @media (max-width: 320px) {
   .main-content {
     .attributes {
