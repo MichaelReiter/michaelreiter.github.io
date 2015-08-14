@@ -63,6 +63,7 @@ p, h2 {
   }
 }
 
+//iPad
 @media (max-width: 768px) {
   .contact-info {
     table {
@@ -71,6 +72,21 @@ p, h2 {
   }
 }
 
+//iPhone 6 Plus
+@media (max-width: 414px) {
+  .contact-info {
+    top: 20vh;
+  }
+}
+
+//iPhone 6
+@media (max-width: 380px) {
+  .contact-info {
+    top: 15vh;
+  }
+}
+
+//Nexus 5
 @media (max-width: 360px) {
   .contact-info {
     table {

@@ -146,6 +146,20 @@ li:hover {
   display: none;
 }
 
+@media (max-width: 768px) {
+  .main-content {
+    .attributes {
+      margin-top: -10px;
+    }
+  }
+
+  .header {
+    li {
+      font-size: 1.2em;
+    }
+  }
+}
+
 @media (max-width: 360px) {
   .header {
     h1 {
@@ -160,16 +174,19 @@ li:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .main-content {
     .attributes {
-      margin-top: -10px;
+      margin-top: -40px;
     }
   }
+}
 
-  .header {
-    li {
-      font-size: 1.2em;
+//iPhone 4S
+@media (max-height: 480px) {
+  .main-content {
+    .attributes {
+      margin-top: -55px;
     }
   }
 }

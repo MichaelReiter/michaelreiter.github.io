@@ -6,6 +6,10 @@ body {
   background-color: $background-color;
 }
 
+.header {
+  z-index: 9999;
+}
+
 .main-content {
   position: relative;
   height: 300px;
@@ -30,6 +34,7 @@ body {
 	img {
 		width: 300px;
     float: left;
+    z-index: 0;
 	}
 
 	p {
@@ -38,9 +43,10 @@ body {
 	}
 }
 
+//iPhone 6 Plus
 @media (max-width: 425px) {
   .main-content {
-    top: 30vh;
+    top: 14em;
     left: 92vw;
     width: 225px;
 
@@ -52,6 +58,7 @@ body {
     .writing {
       width: 350px;
       margin-left: -15%;
+      margin-top: 1em;
     }
 
     img {
@@ -65,21 +72,45 @@ body {
   }
 }
 
+//iPhone 6
 @media (max-width: 380px) {
   .main-content {
+    top: 30vh;
 
     .writing {
       width: 350px;
-      margin-left: -8%;
+      margin-left: -6%;
+      margin-top: 5px;
     }
 
     img {
-      width: 220px;
-      margin-left: -55px;
+      width: 175px;
+      margin-left: -30px;
+    }
+
+    p {
+      font-size: 1em;
     }
   }
 }
 
+//Nexus 5
+@media (max-width: 360px) {
+  .main-content {
+    top: 15.4em;
+
+    .writing {
+      margin-left: -3%;
+    }
+
+    img {
+      width: 150px;
+      margin-left: -12px;
+    }
+  }
+}
+
+//iPhone 5
 @media (max-width: 325px) {
   .main-content {
     top: 38vh;
@@ -101,10 +132,10 @@ body {
   }
 }
 
-
+//iPhone 4S
 @media (max-height: 480px) {
   .main-content {
-    top: 43vh;
+    top: 15em;
 
     .writing {
       margin-top: 0;

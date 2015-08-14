@@ -1,6 +1,9 @@
 body {
   background-color: #2980b9; }
 
+.header {
+  z-index: 9999; }
+
 .main-content {
   position: relative;
   height: 300px;
@@ -19,14 +22,15 @@ body {
     float: left; }
   .main-content img {
     width: 300px;
-    float: left; }
+    float: left;
+    z-index: 0; }
   .main-content p {
     font-family: "Muli";
     font-size: 1.2em; }
 
 @media (max-width: 425px) {
   .main-content {
-    top: 30vh;
+    top: 14em;
     left: 92vw;
     width: 225px; }
     .main-content .container {
@@ -34,19 +38,33 @@ body {
       left: 50%; }
     .main-content .writing {
       width: 350px;
-      margin-left: -15%; }
+      margin-left: -15%;
+      margin-top: 1em; }
     .main-content img {
       width: 220px;
       margin-left: -70px; }
     .main-content p {
       font-size: 1.1em; } }
 @media (max-width: 380px) {
-  .main-content .writing {
-    width: 350px;
-    margin-left: -8%; }
-  .main-content img {
-    width: 220px;
-    margin-left: -55px; } }
+  .main-content {
+    top: 30vh; }
+    .main-content .writing {
+      width: 350px;
+      margin-left: -6%;
+      margin-top: 5px; }
+    .main-content img {
+      width: 175px;
+      margin-left: -30px; }
+    .main-content p {
+      font-size: 1em; } }
+@media (max-width: 360px) {
+  .main-content {
+    top: 15.4em; }
+    .main-content .writing {
+      margin-left: -3%; }
+    .main-content img {
+      width: 150px;
+      margin-left: -12px; } }
 @media (max-width: 325px) {
   .main-content {
     top: 38vh; }
@@ -61,7 +79,7 @@ body {
       font-size: 1em; } }
 @media (max-height: 480px) {
   .main-content {
-    top: 43vh; }
+    top: 15em; }
     .main-content .writing {
       margin-top: 0;
       z-index: 9999; }
