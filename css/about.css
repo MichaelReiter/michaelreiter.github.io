@@ -80,7 +80,6 @@ body {
 
   .footer {
     position: relative;
-    top: 50vh;
     left: 0;
     display: inline; }
 
@@ -97,6 +96,6 @@ body {
       margin-left: 18px; }
 
   .footer {
-    top: 62vh; } }
+    top: 52vh; } }
 
 /*# sourceMappingURL=about.css.map */

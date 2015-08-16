@@ -2,7 +2,7 @@ body {
   background-color: #b6453f; }
 
 .header li, .header h1 {
-  text-shadow: 0 2.5px #7d2f2b; }
+  text-shadow: 0 1.5px #7d2f2b; }
 
 #res {
   height: 396px;
@@ -13,7 +13,7 @@ body {
 
 .resumes {
   text-align: center;
-  text-shadow: 0 2.5px #7d2f2b;
+  text-shadow: 0 1.5px #7d2f2b;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -44,5 +44,60 @@ body {
     font-family: Special Elite; }
   .resumes #snazzy {
     font-family: Lobster; }
+
+@media (max-width: 768px) {
+  .resumes {
+    width: 300px;
+    margin-left: -172px;
+    margin-top: -100px;
+    height: 200px; }
+
+  #res {
+    height: 150px; }
+
+  #res:hover {
+    height: 150px; }
+
+  #old-school, #snazzy {
+    font-size: 1.5em; }
+
+  h2 {
+    margin-left: 25px;
+    width: 300px; }
+
+  .or img {
+    width: 300px; } }
+@media (max-width: 375px) {
+  .resumes {
+    margin-left: -150px; }
+
+  h2 {
+    margin-left: 0px; }
+
+  .or {
+    opacity: 0;
+    width: 10px; } }
+@media (max-width: 325px) {
+  .resumes {
+    margin-left: -150px;
+    margin-top: -100px; }
+
+  h2 {
+    margin-left: 5px;
+    width: 300px; }
+
+  #res {
+    height: 150px; }
+
+  #res:hover {
+    height: 120px; }
+
+  #old-school, #snazzy {
+    font-size: 1.5em; } }
+@media (max-height: 480px) {
+  .resumes {
+    margin-top: -95px; }
+    .resumes h2 {
+      display: none; } }
 
 /*# sourceMappingURL=resume.css.map */
