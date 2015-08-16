@@ -12,7 +12,7 @@ body {
   top: 50vh;
   margin-top: -220px;
   margin-left: -320px;
-  text-shadow: 0 1.5px black; }
+  text-shadow: 0 1.5px #0d0d0d; }
   .words h2 {
     font-family: "Muli";
     font-size: 1.35em; }
@@ -47,6 +47,6 @@ body {
   top: -18.7%; }
 
 .header li, .header h1 {
-  text-shadow: 0 2.5px black; }
+  text-shadow: 0 2.5px #0d0d0d; }
 
 /*# sourceMappingURL=projects.css.map */

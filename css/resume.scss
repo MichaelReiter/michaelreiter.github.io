@@ -8,22 +8,22 @@ body {
 
 .header {
   li, h1 {
-    text-shadow: 0 2.5px darken($background-color, 25%);
+    text-shadow: 0 2.5px darken($background-color, 15%);
   }
 }
 
 #res {
-  height: 40%;
+  height: 396px;
   transition: 0.25s;
 }
 
 #res:hover {
-  height: 45%;
+  height: 446px;
 }
 
 .resumes {
   text-align: center;
-  text-shadow: 0 2.5px darken($background-color, 25%);
+  text-shadow: 0 2.5px darken($background-color, 15%);
   position: absolute;
   top: 50%;
   left: 50%;

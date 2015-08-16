@@ -8,7 +8,7 @@ body {
 
 .header {
   li, h1 {
-    text-shadow: 0 2.5px darken($background-color, 25%);
+    text-shadow: 0 2.5px darken($background-color, 15%);
   }
 }
 
@@ -20,7 +20,7 @@ body {
   left: 50%;
   margin-left: -100px;
   top: 25vh;
-  text-shadow: 0 1.5px darken($background-color, 25%);
+  text-shadow: 0 1.5px darken($background-color, 15%);
 
   table {
     position: relative;
@@ -56,7 +56,7 @@ p, h2 {
   left: 50%;
   text-align: center;
   margin-left: -150px;
-  text-shadow: 0 1.5px darken($background-color, 25%);
+  text-shadow: 0 1.5px darken($background-color, 15%);
 
   i {
     font-size: 2em;

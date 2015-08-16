@@ -2,18 +2,18 @@ body {
   background-color: #b6453f; }
 
 .header li, .header h1 {
-  text-shadow: 0 2.5px #57211e; }
+  text-shadow: 0 2.5px #7d2f2b; }
 
 #res {
-  height: 40%;
+  height: 396px;
   transition: 0.25s; }
 
 #res:hover {
-  height: 45%; }
+  height: 446px; }
 
 .resumes {
   text-align: center;
-  text-shadow: 0 2.5px #57211e;
+  text-shadow: 0 2.5px #7d2f2b;
   position: absolute;
   top: 50%;
   left: 50%;

@@ -2,7 +2,7 @@ body {
   background-color: #16a085; }
 
 .header li, .header h1 {
-  text-shadow: 0 2.5px #073028; }
+  text-shadow: 0 2.5px #0d5d4d; }
 
 .contact-info {
   text-align: center;
@@ -12,7 +12,7 @@ body {
   left: 50%;
   margin-left: -100px;
   top: 25vh;
-  text-shadow: 0 1.5px #073028; }
+  text-shadow: 0 1.5px #0d5d4d; }
   .contact-info table {
     position: relative;
     width: 200px;
@@ -38,7 +38,7 @@ p, h2 {
   left: 50%;
   text-align: center;
   margin-left: -150px;
-  text-shadow: 0 1.5px #073028; }
+  text-shadow: 0 1.5px #0d5d4d; }
   .more-ways i {
     font-size: 2em; }
 
