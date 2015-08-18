@@ -12,7 +12,7 @@ body {
 
 .main-content {
   position: relative;
-  height: 300px;
+  height: 1px;
   width: 700px;
   left: 50%;
   margin-left: -340px;
@@ -29,6 +29,7 @@ body {
     padding-left: 20px;
   	width: 370px;
     float: left;
+    z-index: 9999;
   }
 
 	img {
@@ -79,7 +80,7 @@ body {
 
     .writing {
       width: 350px;
-      margin-left: -6%;
+      margin-left: -10px;
       margin-top: 5px;
     }
 
@@ -100,13 +101,24 @@ body {
     top: 15.4em;
 
     .writing {
-      margin-left: -3%;
+      margin-left: -5px;
     }
 
     img {
       width: 150px;
       margin-left: -12px;
     }
+  }
+
+  .footer {
+    position: relative;
+    left: 0;
+    display: inline;
+    top: 41.5em;
+  }
+
+  .container {
+    padding-bottom: 25px;
   }
 }
 
@@ -117,7 +129,7 @@ body {
 
     .writing {
       width: 310px;
-      margin-left: 12%;
+      margin-left: 25px;
       margin-top: 15px;
     }
 
@@ -130,16 +142,6 @@ body {
       font-size: 1em;
     }
   }
-
-  .footer {
-    position: relative;
-    left: 0;
-    display: inline;
-  }
-
-  .container {
-    padding-bottom: 50px;
-  }
 }
 
 //iPhone 4S
@@ -149,7 +151,6 @@ body {
 
     .writing {
       margin-top: 7px;
-      z-index: 9999;
     }
 
     img {
@@ -159,6 +160,6 @@ body {
   }
 
   .footer {
-    top: 52vh;
+    top: 40.5em;
   }
 }
