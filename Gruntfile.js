@@ -8,14 +8,15 @@ module.exports = function(grunt) {
           'css/projects.css' : 'css/projects.scss',
           'css/resume.css' : 'css/resume.scss',
           'css/contact.css' : 'css/contact.scss',
-          'css/about.css' : 'css/about.scss'
+          'css/about.css' : 'css/about.scss',
+          'css/apps.css' : 'css/apps.scss'
         }
       }
     },
 
     watch: {
       css: {
-        files: ['**/*.scss', '*.html', '**/*.js'],
+        files: ['**/*.scss', '**/*.html', '**/*.js'],
         tasks: ['sass']
       },
       options: {

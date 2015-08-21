@@ -8,64 +8,81 @@ body {
 
 .main-content {
 	height: 100%;
-}
-
-.words {
-	height: 300px;
-	width: 50%;
+	width: 80%;
 	position: relative;
 	left: 50%;
-	top: 50vh;
-	margin-top: -220px;
-	margin-left: -320px;
-	text-shadow: 0 1.5px darken($background-color, 15%);
+	margin-left: -40%;
+	margin-top: 25vh;
+}
 
-	h2 {
-		font-family: $body-font;
-		font-size: 1.35em;
-	}
-
-	ul {
-		list-style: none;
-	}
+.thumbnail {
+	text-shadow: none;
+	font-family: $body-font;
+	background-color: $background-color;
+	border: none;
 
 	p {
 		font-family: $body-font;
-		width: 350px;
-		font-size: 1.2em;
+		margin-bottom: 25px;
 	}
 
-	a {
-		margin-top: 20px;
-		margin-left: 100px;
+	h3, p {
+		color: #ffffff;
+		text-align: center;
+	}
+
+	img {
+		width: 150px;
 	}
 }
 
-.phone {
-	width: 600px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	margin-left: -100px;
-	margin-top: -165px;
-}
+.button {
+	padding: 10px;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	font-family: $body-font;
+	transition: 0.1s;
 
-#myCarousel {
-	left: 32.5%;
-	width: 35%;
-}
-
-#overlay {
-	position: absolute;
-	color: white;
-	fill: #ffffff;
-	opacity: 0.6;
-	left: 30.1%;
-	top: -18.7%;
+	&:hover {
+		background-color: #ffffff;
+		color: $background-color;
+		transform-style: ease-in;
+	}
 }
 
 .header {
 	li, h1 {
 		text-shadow: 0 1.5px darken($background-color, 15%);
+	}
+}
+
+@media (max-height: 800px) {
+	.main-content {
+		margin-top: 20vh;
+	}
+}
+
+//iPhone 6 Plus
+@media (max-width: 414px) {
+	.footer {
+		display: none;
+	}
+
+	.main-content {
+		margin-top: 5vh;
+	}
+}
+
+//Nexus 5
+@media (max-width: 360px) {
+	.main-content {
+		margin-top: 10vh;
+	}
+}
+
+//iPhone 4S
+@media (max-height: 480px) {
+	.main-content {
+		margin-top: 10vh;
 	}
 }
