@@ -1,8 +1,12 @@
 var delay = 1000;
+var fadeInDuration = 2000;
 
-$(document).ready(function () {
-    $('.first').fadeIn(2000).removeClass('hidden');
-    $('.second').delay(delay).fadeIn(2000).removeClass('hidden');
-    $('.third').delay(delay*2).fadeIn(2000).removeClass('hidden');
-    $('.fourth').delay(delay*3).fadeIn(2000).removeClass('hidden');
+$(document).ready(function() {
+	$('.fadeIn').removeClass('notShown').fadeIn(fadeInDuration/5);
+	$('.slide').addClass('slideUp');
+	
+  $('.first').fadeIn(fadeInDuration).removeClass('hidden');
+  $('.second').delay(delay).fadeIn(fadeInDuration).removeClass('hidden');
+  $('.third').delay(delay*2).fadeIn(fadeInDuration).removeClass('hidden');
+  $('.fourth').delay(delay*3).fadeIn(fadeInDuration).removeClass('hidden');
 });

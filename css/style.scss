@@ -142,8 +142,20 @@ li:hover {
   text-shadow: 0 3px darken($background-color, 15%);
 }
 
-.first, .second, .third, .fourth {
+.first, .second, .third, .fourth, .fadeIn {
   display: none;
+}
+
+.slideUp {
+  position: relative;
+  top: 20px;
+  transition: 0.5s;
+  //transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+}
+
+.hiddenIcon, .notShown {
+  opacity: 0;
 }
 
 @media (max-width: 768px) {

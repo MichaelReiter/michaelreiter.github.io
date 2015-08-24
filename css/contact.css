@@ -11,13 +11,13 @@ body {
   width: 200px;
   left: 50%;
   margin-left: -100px;
-  top: 25vh;
+  top: 30vh;
   text-shadow: 0 1.5px #0d5d4d; }
   .contact-info table {
     position: relative;
     width: 200px;
     left: 50%;
-    margin: 3em 0 15vh -100px; }
+    margin: 3.5em 0 15vh -100px; }
   .contact-info td {
     font-size: 1.2em;
     padding: 5px; }
@@ -42,6 +42,9 @@ p, h2 {
   .more-ways i {
     font-size: 2em; }
 
+@media (max-height: 1024px) {
+  .contact-info {
+    top: 27vh; } }
 @media (max-width: 768px) {
   .contact-info table {
     margin-bottom: 15vh; } }

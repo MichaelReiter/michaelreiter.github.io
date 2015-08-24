@@ -99,8 +99,17 @@ li:hover {
     margin: 0 0 0 -150px;
     text-align: center; }
 
-.first, .second, .third, .fourth {
+.first, .second, .third, .fourth, .fadeIn {
   display: none; }
+
+.slideUp {
+  position: relative;
+  top: 20px;
+  transition: 0.5s;
+  -webkit-transform: translateY(-20px); }
+
+.hiddenIcon, .notShown {
+  opacity: 0; }
 
 @media (max-width: 768px) {
   .main-content .attributes {
