@@ -25,6 +25,11 @@ body {
   .words a {
     margin-top: 20px;
     margin-left: 100px; }
+  .words .back-button span {
+    border: none; }
+    .words .back-button span:hover {
+      border-bottom: 2px solid white;
+      color: #ffffff; }
 
 .phone {
   width: 600px;

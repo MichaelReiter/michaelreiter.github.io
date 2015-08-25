@@ -2,13 +2,9 @@ var delay = 100;
 
 $(document).ready(function() {
 	setTimeout(function() {
-		$('.appIcon').removeClass('hiddenIcon').addClass('animation-target');
+		$('.appIcon').fadeIn(500).removeClass('hidden');
 		$('.caption').removeClass('notShown').addClass('slideUp');
+
+		$('.main-content').fadeIn(300).removeClass('hidden');
 	}, delay);
-	setTimeout(function() {
-		$('.appIcon2').removeClass('hiddenIcon').addClass('animation-target');
-	}, delay*2);
-	setTimeout(function() {
-		$('.appIcon3').removeClass('hiddenIcon').addClass('animation-target');
-	}, delay*3);
 });

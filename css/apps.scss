@@ -40,8 +40,15 @@ body {
 		margin-left: 100px;
 	}
 
-  .technologies {
-    //font-style: italic;
+  .back-button {
+    span {
+      border: none;
+
+      &:hover {
+        border-bottom: 2px solid white;
+        color: #ffffff;
+      }
+    }
   }
 }
 
