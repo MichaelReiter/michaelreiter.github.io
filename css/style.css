@@ -89,6 +89,12 @@ li:hover {
     opacity: 1; }
 
 /* OTHER STYLES */
+.preload {
+  width: 10px;
+  height: 10px;
+  display: none;
+  position: absolute; }
+
 .main-content {
   text-shadow: 0 3px #19232d; }
   .main-content .attributes {

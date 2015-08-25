@@ -130,6 +130,13 @@ li:hover {
 }
 
 /* OTHER STYLES */
+.preload {
+  width: 10px;
+  height: 10px;
+  display: none;
+  position: absolute;
+}
+
 .main-content {
   .attributes {
     position: absolute;
