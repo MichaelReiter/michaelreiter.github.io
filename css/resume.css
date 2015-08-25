@@ -67,7 +67,10 @@ body {
 
   .or img {
     width: 300px; } }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
+  .main-content .attributes {
+    margin-top: -20px; }
+
   .resumes {
     margin-left: -150px; }
 

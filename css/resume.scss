@@ -104,8 +104,14 @@ body {
   }
 }
 
-//iPhone 6
-@media (max-width: 375px) {
+//iPhone 6 Plus
+@media (max-width: 414px) {
+  .main-content {
+    .attributes {
+      margin-top: -20px;
+    }
+  }
+
   .resumes {
     margin-left: -150px;
   }
@@ -118,10 +124,6 @@ body {
     opacity: 0;
     width: 10px;
   }
-}
-
-//Nexus 5
-@media (max-width: 360px) {
 }
 
 //iPhone 5
