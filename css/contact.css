@@ -21,6 +21,8 @@ body {
   .contact-info td {
     font-size: 1.2em;
     padding: 5px; }
+  .contact-info .email td {
+    padding-top: 20px; }
   .contact-info i {
     padding-top: 3px;
     font-size: 1.25em; }
