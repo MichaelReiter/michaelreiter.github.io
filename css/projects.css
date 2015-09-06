@@ -54,9 +54,6 @@ body {
     margin-top: 5vh; } }
 @media (max-width: 360px) {
   .main-content {
-    margin-top: 10vh; } }
-@media (max-height: 480px) {
-  .main-content {
-    margin-top: 10vh; } }
+    margin-top: 12vh; } }
 
 /*# sourceMappingURL=projects.css.map */
