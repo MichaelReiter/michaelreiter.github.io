@@ -76,6 +76,13 @@ p, h2 {
   }
 }
 
+//Super short desktop
+@media (max-height: 700px) {
+  .contact-info {
+    top: 21vh;
+  }
+}
+
 //iPad
 @media (max-width: 768px) {
   .contact-info {

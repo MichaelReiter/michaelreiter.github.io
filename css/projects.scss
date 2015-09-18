@@ -70,6 +70,12 @@ body {
   }
 }
 
+@media (max-height: 620px) {
+  .main-content {
+    margin-top: 13vh;
+  }
+}
+
 //iPhone 6 Plus
 @media (max-width: 414px) {
   .footer {

@@ -47,6 +47,9 @@ p, h2 {
 @media (max-height: 1024px) {
   .contact-info {
     top: 27vh; } }
+@media (max-height: 700px) {
+  .contact-info {
+    top: 21vh; } }
 @media (max-width: 768px) {
   .contact-info table {
     margin-bottom: 15vh; } }

@@ -73,6 +73,24 @@ body {
 
 }
 
+@media (max-height: 700px) {
+  .question {
+    opacity: 0;
+  }
+
+  .resumes {
+    margin-top: -200px;
+  }
+
+  #res {
+    height: 350px;
+  }
+
+  #res:hover {
+    height: 375px;
+  }
+}
+
 //iPad
 @media (max-width: 768px) {
   .resumes {
@@ -106,6 +124,10 @@ body {
 
 //iPhone 6 Plus
 @media (max-width: 414px) {
+  .question {
+    opacity: 1;
+  }
+
   .main-content {
     .attributes {
       margin-top: -20px;
