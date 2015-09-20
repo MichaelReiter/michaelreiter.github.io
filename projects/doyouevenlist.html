@@ -8,14 +8,14 @@
     <meta name="author" content="Michael Reiter">
     <link rel="icon" href="favicon.ico">
 
-    <title>Michael Reiter - Projects</title>
+    <title>Projects - Do You Even List</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/projects.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/apps.css" rel="stylesheet">
 
     <!-- Icons -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -39,60 +39,65 @@
         <h1>PROJECTS</h1>
         <ul>
           <li>
-            <a href="about.html" alt="About">ABOUT</a>
+            <a href="../about.html" alt="About">ABOUT</a>
           </li>
           <li>
-            <a href="projects.html" alt="Projects">PROJECTS</a>
+            <a href="../projects.html" alt="Projects">PROJECTS</a>
           </li>
           <li>
-            <a href="resume.html" alt="Resume">RESUME</a>
+            <a href="../resume.html" alt="Resume">RESUME</a>
           </li>
           <li>
-            <a href="contact.html" alt="Contact">CONTACT</a>
+            <a href="../contact.html" alt="Contact">CONTACT</a>
           </li>
         </ul>
       </div>
 
       <!-- Main content -->
-      <div class="main-content">
-        <div class="row">
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="img/icons/spaceblaze.png" alt="Space Blaze icon" class="appIcon hidden">
-              <div class="caption notShown">
-                <h3>Space Blaze</h3>
-                <p>An addicting game of speed and precision.</p>
-                <p><a href="/projects/spaceblaze.html" class="button" id="spaceblaze">More Info</a></p>
-              </div>
-            </div>
+      <div class="main-content hidden">
+        <div class="words">
+          <div class="back-button">
+            <p>
+              <a href="/projects.html"><i class="ion-ios-arrow-back"> </i><span>Back</span></a>
+            </p>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="img/icons/ki.png" alt="Ki icon" class="appIcon hidden">
-              <div class="caption notShown">
-                <h3>Ki</h3>
-                <p>An app that helps users write and play music.</p>
-                <p><a href="/projects/ki.html" class="button" id="ki">More Info</a></p>
-              </div>
-            </div>
+          <ul>
+            <li>
+              <h2>Do You Even List</h2>
+              <p>A hybrid iOS/Android app for tracking workouts. Records exercise details, counts sets, repetitions, and weight. Distributed through iTunes App Store and Google Play Store.</p>
+              <p class="technologies">Built with HTML, CSS, JavaScript, AngularJS, Ionic Framework and Apache Cordova.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.michaelreiter.dyel" target="_blank">
+                <img alt="Android app on Google Play" style="display:inline-block;overflow:hidden;no-repeat;height:40px;" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="phone">
+          <div id="overlay">
+            <img width="78%" src="../img/overlay.svg"></img>
           </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="img/icons/doyouevenlist.png" alt="Do You Even List icon" class="appIcon hidden">
-              <div class="caption notShown">
-                <h3>Do You Even List</h3>
-                <p>A hybrid app to keep track of workouts.</p>
-                <p><a href="/projects/doyouevenlist.html" class="button" id="doyouevenlist">More Info</a></p>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="../img/screenshots/dyel1.png" alt="Do You Even List">
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="img/icons/randomcolorpicker.png" alt="Random Color Picker icon" class="appIcon hidden">
-              <div class="caption notShown">
-                <h3>Color Picker</h3>
-                <p>A tool for web designers to choose colors.</p>
-                <p><a href="/projects/randomcolorpicker.html" class="button" id="randomcolorpicker">More Info</a></p>
+              <div class="item">
+                <img src="../img/screenshots/dyel2.png" alt="Do You Even List">
+              </div>
+              <div class="item">
+                <img src="../img/screenshots/dyel3.png" alt="Do You Even List">
+              </div>
+              <div class="item">
+                <img src="../img/screenshots/dyel4.png" alt="Do You Even List">
               </div>
             </div>
           </div>
@@ -135,8 +140,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/projects.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/projects.js"></script>
+    <script src="../js/doyouevenlist.js"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -145,7 +151,6 @@
 
       ga('create', 'UA-66626002-1', 'auto');
       ga('send', 'pageview');
-
     </script>
   </body>
 </html>
