@@ -45,7 +45,11 @@ body {
 
 @media (max-height: 800px) {
   .main-content {
-    margin-top: 20vh; } }
+    margin-top: 10vh; }
+
+  .footer {
+    position: relative;
+    margin-top: 30px; } }
 @media (max-height: 620px) {
   .main-content {
     margin-top: 13vh; } }
