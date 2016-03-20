@@ -52,14 +52,6 @@ body {
   }
 }
 
-.pc-words {
-	margin-left: -450px;
-
-	p {
-		width: 40%;
-	}
-}
-
 .phone {
 	width: 600px;
 	position: fixed;
@@ -119,5 +111,25 @@ body {
 	a {
 		font-family: $body-font;
 		margin: 0;
+	}
+}
+
+@media (max-height: 1200px) {
+	.pc-words {
+		margin-left: -450px;
+
+		p {
+			width: 28%;
+		}
+	}
+}
+
+@media (max-height: 800px) {
+	.pc-words {
+		margin-left: -450px;
+
+		p {
+			width: 40%;
+		}
 	}
 }
