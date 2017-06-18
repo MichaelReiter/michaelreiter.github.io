@@ -1,0 +1,95 @@
+body {
+  background-color: #333333; }
+
+.main-content {
+  height: 100%; }
+
+.words {
+  height: 300px;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  top: 50vh;
+  margin-top: -240px;
+  margin-left: -320px;
+  text-shadow: 0 1.5px #0d0d0d; }
+  .words h2 {
+    font-family: "Muli";
+    font-size: 1.35em; }
+  .words ul {
+    list-style: none; }
+  .words p {
+    font-family: "Muli";
+    width: 350px;
+    font-size: 1.2em; }
+  .words a {
+    margin-top: 20px;
+    margin-left: 100px; }
+  .words .back-button span {
+    border: none; }
+    .words .back-button span:hover {
+      border-bottom: 2px solid white;
+      color: #ffffff; }
+
+.phone {
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -165px; }
+
+.pc {
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -330px;
+  margin-top: -220px; }
+
+#overlay {
+  position: absolute;
+  color: white;
+  fill: #ffffff;
+  opacity: 0.6;
+  left: 30.1%;
+  top: -18.7%; }
+
+#pcOverlay {
+  position: absolute;
+  color: white;
+  fill: #ffffff;
+  opacity: 0.6;
+  left: 20%;
+  top: -13%; }
+
+#myCarousel {
+  left: 32.5%;
+  width: 35%; }
+
+#pcCarousel {
+  left: 32.5%;
+  width: 119%; }
+
+.header li, .header h1 {
+  text-shadow: 0 1.5px #0d0d0d; }
+
+.back-button {
+  position: relative;
+  top: -28%; }
+  .back-button a {
+    font-family: "Muli";
+    margin: 0; }
+
+@media (max-height: 1200px) {
+  .pc-words {
+    margin-left: -450px; }
+    .pc-words p {
+      width: 28%; } }
+@media (max-height: 800px) {
+  .pc-words {
+    margin-left: -450px; }
+    .pc-words p {
+      width: 40%; } }
+
+/*# sourceMappingURL=apps.css.map */

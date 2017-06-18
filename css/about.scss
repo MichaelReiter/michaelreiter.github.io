@@ -1,0 +1,172 @@
+$blue: #2980b9;
+$background-color: $blue;
+$body-font: "Muli";
+
+body {
+  background-color: $background-color;
+}
+
+.header {
+  z-index: 9999;
+}
+
+.main-content {
+  position: relative;
+  width: 600px;
+  left: 50%;
+  margin-left: -340px;
+  top: 43vh;
+  margin-top: -200px;
+  text-shadow: 0 1.5px darken($background-color, 15%);
+
+  .writing {
+    margin-top: 25px;
+    padding-left: 20px;
+  	width: 370px;
+    z-index: 9999;
+  }
+
+	img {
+		width: 300px;
+    z-index: 0;
+	}
+
+	p {
+		font-family: $body-font;
+		font-size: 1.2em;
+	}
+}
+
+//mobile
+@media (max-width: 992px) {
+  .main-content {
+    width: 200px;
+    margin-left: -200px;
+    top: 18em;
+
+    .writing {
+      margin-top: 25px;
+      padding-left: 20px;
+      width: 370px;
+      z-index: 9999;
+    }
+  }
+}
+
+//iPhone 6 Plus
+@media (max-width: 425px) {
+  .main-content {
+    top: 15em;
+    left: 31vw;
+    width: 225px;
+
+    .container {
+      position: relative;
+      left: 50%;
+    }
+
+    .writing {
+      width: 350px;
+      margin-left: -15%;
+      margin-top: 1em;
+    }
+
+    img {
+      width: 220px;
+      margin-left: 40px;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+  }
+}
+
+//iPhone 6
+@media (max-width: 380px) {
+  .main-content {
+
+    .writing {
+      margin-left: -30px;
+      margin-top: 5px;
+    }
+
+    img {
+      width: 175px;
+      margin-left: 55px;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
+}
+
+//Nexus 5
+@media (max-width: 360px) {
+  .main-content {
+    top: 16.25em;
+
+    .writing {
+      width: 325px;
+      margin-left: -30px;
+    }
+
+    img {
+      width: 150px;
+      margin-left: 65px;
+    }
+  }
+
+  // .footer {
+  //   position: relative;
+  //   left: 0;
+  //   display: inline;
+  //   top: 41.5em;
+  // }
+
+  // .container {
+  //   padding-bottom: 25px;
+  // }
+}
+
+//iPhone 5
+@media (max-width: 325px) {
+  .main-content {
+    top: 20em;
+
+    .writing {
+      width: 310px;
+      margin-left: -28px;
+      margin-top: 15px;
+    }
+
+    img {
+      width: 150px;
+    }
+
+    p {
+      font-size: 1em;
+    }
+  }
+}
+
+//iPhone 4S
+@media (max-height: 480px) {
+  .main-content {
+    top: 16.25em;
+
+    .writing {
+      margin-top: 7px;
+    }
+
+    img {
+      width: 125px;
+      margin-left: 70px;
+    }
+  }
+
+  .footer {
+    display: none;
+  }
+}

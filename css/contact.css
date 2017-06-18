@@ -1,0 +1,80 @@
+body {
+  background-color: #16a085; }
+
+.header li, .header h1 {
+  text-shadow: 0 1.5px #0d5d4d; }
+
+.contact-info {
+  text-align: center;
+  position: relative;
+  height: 50%;
+  width: 200px;
+  left: 50%;
+  margin-left: -100px;
+  top: 30vh;
+  text-shadow: 0 1.5px #0d5d4d; }
+  .contact-info table {
+    position: relative;
+    width: 200px;
+    left: 50%;
+    margin: 3.5em 0 15vh -100px; }
+  .contact-info td {
+    font-size: 1.2em;
+    padding: 5px; }
+  .contact-info .email td {
+    padding-top: 20px; }
+  .contact-info i {
+    padding-top: 3px;
+    font-size: 1.25em; }
+  .contact-info a {
+    font-family: "Muli"; }
+
+p, h2 {
+  font-family: "Muli";
+  font-size: 1.2em; }
+
+.more-ways {
+  position: absolute;
+  bottom: 5em;
+  width: 300px;
+  left: 50%;
+  text-align: center;
+  margin-left: -150px;
+  text-shadow: 0 1.5px #0d5d4d; }
+  .more-ways i {
+    font-size: 2em; }
+
+@media (max-height: 1024px) {
+  .contact-info {
+    top: 27vh; } }
+@media (max-height: 700px) {
+  .contact-info {
+    top: 21vh; } }
+@media (max-width: 768px) {
+  .contact-info table {
+    margin-bottom: 15vh; } }
+@media (max-height: 550px) {
+  .contact-info {
+    top: 20vh; } }
+@media (max-width: 414px) {
+  .contact-info {
+    top: 20vh; } }
+@media (max-width: 380px) {
+  .contact-info {
+    top: 15vh; } }
+@media (max-width: 360px) {
+  .contact-info {
+    top: 7.5em; }
+    .contact-info table {
+      margin-bottom: 5vh; } }
+@media (max-width: 320px) {
+  .contact-info {
+    top: 8em; } }
+@media (max-height: 480px) {
+  .more-ways {
+    display: none; }
+
+  .contact-info {
+    top: 5em; } }
+
+/*# sourceMappingURL=contact.css.map */
