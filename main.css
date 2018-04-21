@@ -1,5 +1,27 @@
-html, body {
-    /* overflow: hidden; */
+.slideUp {
+    position: relative;
+    animation: sliding 0.75s;
+}
+@keyframes sliding {
+    from {
+        bottom: -25px;
+    }
+    to {
+        bottom: 0;
+    }
+}
+.fadeIn {
+    animation: fading 1.0s;
+}
+@keyframes fading {
+    from {
+        bottom: -50px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
 }
 h1::selection {
     background: #666666;
@@ -558,7 +580,7 @@ img{
     text-shadow:0 2px 0 rgba(0,0,0,.1);
 }
 .custom-img{
-    max-width:97%;
+    max-height: 75vh;
     display:block;
     position:relative;
     margin:auto;
