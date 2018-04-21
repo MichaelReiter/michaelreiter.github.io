@@ -1,3 +1,6 @@
+html, body {
+    background-color: #faa64d;
+}
 .slideUp {
     position: relative;
     animation: sliding 0.75s;
